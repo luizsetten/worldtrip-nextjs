@@ -1,14 +1,12 @@
-import { Flex } from "@chakra-ui/react";
+import { Flex } from '@chakra-ui/react';
 
-export default function Home() {
+export default function Home(): JSX.Element {
   return (
     <Flex
-      w="100vw" 
-      h="100vh" 
-      align="center" 
+      w="100vw"
+      h="100vh"
+      align="center"
       justify="center"
-    >
-
-    </Flex>
-  )
+    />
+  );
 }
