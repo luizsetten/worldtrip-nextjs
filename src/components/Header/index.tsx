@@ -1,14 +1,15 @@
+import { Link as ChakraLink, Flex, Image } from '@chakra-ui/react';
+
 import Link from 'next/link';
-import styles from './header.module.scss';
 
 export function Header(): JSX.Element {
   return (
-    <header className={styles.header}>
-      <Link href="/">
-        <a>
-          <img src="/images/logo.svg" alt="logo" />
-        </a>
+    <Flex justify="center" m="8">
+      <Link href="/" passHref>
+          <ChakraLink>
+            <Image src="/images/logo.svg" alt="logo" />
+          </ChakraLink>
       </Link>
-    </header>
+    </Flex>
   );
 }
