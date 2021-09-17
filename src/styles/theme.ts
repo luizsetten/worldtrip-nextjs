@@ -22,6 +22,9 @@ export const theme = extendTheme({
         bg: 'gray.50',
         color: 'gray.700',
       },
+      h2: {
+        color: 'gray.50',
+      },
     },
   },
 });
